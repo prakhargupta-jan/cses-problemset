@@ -1,5 +1,6 @@
 rm */*.bin
 rm */*.exe
+rm */*.out
 git add .
-git commit -m "Some more progress"
+git commit -m "$1"
 git push
